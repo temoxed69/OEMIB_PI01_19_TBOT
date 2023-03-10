@@ -148,4 +148,10 @@ BOT_FUNCTIONS = {
         about='Рандомный анекдот специально для Вас',
         description='Введите /anecdote с числовым аргументом'
     ),
+    'Telefon': BotFunction(
+        commands=['Telefon'],
+        authors=['temoxed69'],
+        about='Помощь в выборе телефона',
+        description='Введите /start и начнется опрос'
+    ),
 }
